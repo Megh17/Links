@@ -1,1 +1,54 @@
 https://drive.google.com/file/d/0B7Z1yYFmiNAFUkNQNGR0VnZwYmM/view?usp=sharing
+
+public class Employee {
+	String name;
+	int emp_id;
+	String designation;
+	int salary;
+	int insuranceSum;
+	String insuranceType;
+	
+	public int getInsuranceSum() {
+		return insuranceSum;
+	}
+	public void setInsuranceSum(int insuranceSum) {
+		this.insuranceSum = insuranceSum;
+	}
+	public String getInsuranceType() {
+		return insuranceType;
+	}
+	public void setInsuranceType(String insuranceType) {
+		this.insuranceType = insuranceType;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getEmp_id() {
+		return emp_id;
+	}
+	public void setEmp_id(int emp_id) {
+		this.emp_id = emp_id;
+	}
+	public String getDesignation() {
+		return designation;
+	}
+	public void setDesignation(String designation) {
+		this.designation = designation;
+	}
+	public int getSalary() {
+		return salary;
+	}
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+	@Override
+	public String toString() {
+		return "Employee Details \n name=" + name + "\n emp_id=" + emp_id + "\n designation=" + designation + "\n salary=" + salary
+				+ "\n insuranceSum=" + insuranceSum + "\n insuranceType=" + insuranceType +"\n" ;
+	}
+	
+	
+}
